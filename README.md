@@ -1,33 +1,4 @@
 
-
-
-vv--!>
-version: '3.8' 
-
-
- services: 
-   app: 
-     image: my-node-app 
-     build: 
-       context: . 
-       dockerfile: Dockerfile 
-     ports: 
-       - "3000:3000" 
-     volumes: 
-       - .:/usr/src/app 
-     depends_on: 
-       - db 
-
-   db: 
-     image: mongo 
-     ports: 
-
- - "27017:27017"## Hi there 👋 vv--!>
-
-
-https://github.com/michaeldavis246611119/https-github.com-michaeldavis246611119-skills-introduction-to-github-issues-1/commit/777c985b8e5343069fda54c3d16f2acd60d4ddc0
-
-
  <!-- 
  **michaeldavis246611119/michaeldavis246611119** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile. 
   
